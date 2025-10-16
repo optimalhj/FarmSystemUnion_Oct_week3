@@ -6,7 +6,9 @@
 
   학교에서 아두이노 보드를 대여할 수 있다고 하여, 다행히 장비를 받고 본격적인 활동을 시작할 수 있게 되었다. 필자가 대여받은 기기는 무선 Wifi 모듈이 내장된 D1보드로 따로 무선 모듈을 추가할 필요가 없이 Wifi 기능을 활용할 수 있다.
 
+<div align="center">
  <img width="230" height="219" src="https://github.com/user-attachments/assets/c72caf80-2907-42a0-9c7d-c35bb563defb" />
+</div>
 
 ---
 
@@ -17,23 +19,28 @@
 아두이노는 USB를 통한 단순 데이터 통신이 아닌 시리얼 통신을 이용하기에 USB포트를 통한 시리얼 통신을 지원하기 위한 통칭 'CH340' 드라이버를 설치해야한다
 
 PC와 아두이노 기기가 연결되면, 장치 관리자에서 새로운 포트(USB Serial Port)가 나타나면서 제대로 설치되었는지 여부를 판단할 수 있다.
-
-<img width="2559" height="1439" src="https://github.com/user-attachments/assets/9b9026b0-2ca4-4308-a2ae-2922110d566d" />
-
+<div align="center">
+ <img width="2559" height="1439" src="https://github.com/user-attachments/assets/9b9026b0-2ca4-4308-a2ae-2922110d566d" />
+</div>
 
 IDE 내부에서도 설정할 것이 존재한다. 필자는 D1 아두이노 보드를 활용할 계획이기에 해당 보드에 대한 정보를 IDE 내부로 불러와 통신을 원활하게 할 수 있도록 한다.
 
 새로 추가된 소프트웨어 포트에 맞게, 그리고 보유한 보드의 종류가 맞도록 설정을 변경하도록 한다.
-
-<img width="1042" height="750" alt="image" src="https://github.com/user-attachments/assets/bbe31cb8-592d-4c2a-a8f9-2bc5d0cb9ec6" />
+<div align="center">
+ <img width="500" src="https://github.com/user-attachments/assets/bbe31cb8-592d-4c2a-a8f9-2bc5d0cb9ec6" />
+</div>
 
 ---
  
 ## 기기의 제어 확인
  
  기기의 상태의 확인할 겸, 초음파 센서를 활용한 거리 측정 코드를 작성하여 기기에 업로드 해보았다. 다행히 거리에 따른 출력이 정상 작동함을 확인해 볼 수 있었다.
+<div align="center">
+ <img width="400" src="https://github.com/user-attachments/assets/1491641d-51ca-400c-bfc9-5ddf5bf8414e" />
+ <img width="400" src="https://github.com/user-attachments/assets/5ce34346-6088-4222-8517-e8808522a927" />
 
-<img width="2559" height="1439" src="https://github.com/user-attachments/assets/add42288-0b78-47f2-8d4f-ea6d57ac6181" />
+ <img width="2559" height="1439" src="https://github.com/user-attachments/assets/add42288-0b78-47f2-8d4f-ea6d57ac6181" />
+</div>
 
  여기서 호기심으로 LCD 디스플레이를 활용하면서 한 번 응용보았다. 교재에 작성된 것을 토대로 새롭게 코드를 작성해보았다.
 
@@ -43,11 +50,16 @@ I2C통신을 위한 라이브러리는 자체적으로 내장되어 있어, #inc
 
 LCD 디스플레이 라이브러리는 IDE 자체에 포함된 '라이브러리 매니저'라는 창에서 따로 라이브러리를 설치하고 불러와야 한다.
 
- <img width="500" height="631" alt="image" src="https://github.com/user-attachments/assets/22f4c7b7-0ab9-487b-aac3-dc5dc2819fcc" />
+<div align="center">
+ <img width="300" src="https://github.com/user-attachments/assets/22f4c7b7-0ab9-487b-aac3-dc5dc2819fcc" />
+ <img width="700" src="https://github.com/user-attachments/assets/22ca61ec-681d-45fe-affa-0b2cf09bce00" />
+</div>
 
-<img width="2559" height="1439" src="https://github.com/user-attachments/assets/22ca61ec-681d-45fe-affa-0b2cf09bce00" />
+다행히 이번에도 정상작동 함을 볼 수 있었다. 참고로 소수점 아래에 5자리가 출력된 것은, 코드가 반복될 때마다 LCD디스플레이를 초기화를 안하고 넘어가서이기 때문이다.
 
-다행히 이번에도 정상작동 함을 볼 수 있었다. 참고로 소수점 아래에 4자리가 출력된 것은, 코드가 반복될 때마다 LCD디스플레이를 초기화를 안하고 넘어가서이기 때문이다.
+<div align="center">
+  <img width="2000" src="https://github.com/user-attachments/assets/a394633f-3f2b-46c8-8e34-7909d817cf91" />
+</div>
 
 ---
 
@@ -61,7 +73,11 @@ LCD 디스플레이 라이브러리는 IDE 자체에 포함된 '라이브러리 
 
 필자에게 부여된 토큰을 따라 Chat_ID를 파악하였다.
 
-<img width="1919" height="1199" src="https://github.com/user-attachments/assets/5d451199-3a9d-442a-b2d5-f907c845ca3b" />
+<div align="center">
+ <img width="400" src="https://github.com/user-attachments/assets/aa4c7347-d9a5-45ad-b1bf-bab0d6480a43" />
+ <img width="400" src="https://github.com/user-attachments/assets/750dd8af-d88f-4b50-bc77-5142e504dc58" />
+ <img width="1919" height="1199" src="https://github.com/user-attachments/assets/5d451199-3a9d-442a-b2d5-f907c845ca3b" />
+</div>
 
 #### IDE 설정
 
@@ -155,6 +171,10 @@ void loop() {
 다행히 필자의 세팅에서는 아두이노와 텔레그램이 서로 잘 연동되어 문자를 정해진 조건 下에서 수신받을 수 있었다.
 
 이로써 필자도 또한 무선 통신을 무사히(?) 구현할 수 있게 되었다.
+
+<div align="center">
+ <img width="400" src="https://github.com/user-attachments/assets/f30222fd-0611-4592-b961-5c36e8fda48c" />
+</div>
 
 ---
 
