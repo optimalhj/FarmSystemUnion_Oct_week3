@@ -52,7 +52,7 @@ LCD 디스플레이 라이브러리는 IDE 자체에 포함된 '라이브러리 
 
 <div align="center">
  <img width="300" src="https://github.com/user-attachments/assets/22f4c7b7-0ab9-487b-aac3-dc5dc2819fcc" />
- <img width="700" src="https://github.com/user-attachments/assets/22ca61ec-681d-45fe-affa-0b2cf09bce00" />
+ <img width="650" src="https://github.com/user-attachments/assets/22ca61ec-681d-45fe-affa-0b2cf09bce00" />
 </div>
 
 다행히 이번에도 정상작동 함을 볼 수 있었다. 참고로 소수점 아래에 5자리가 출력된 것은, 코드가 반복될 때마다 LCD디스플레이를 초기화를 안하고 넘어가서이기 때문이다.
