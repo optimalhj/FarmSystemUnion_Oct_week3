@@ -74,8 +74,8 @@ LCD 디스플레이 라이브러리는 IDE 자체에 포함된 '라이브러리 
 필자에게 부여된 토큰을 따라 Chat_ID를 파악하였다.
 
 <div align="center">
- <img width="400" src="https://github.com/user-attachments/assets/aa4c7347-d9a5-45ad-b1bf-bab0d6480a43" />
  <img width="400" src="https://github.com/user-attachments/assets/750dd8af-d88f-4b50-bc77-5142e504dc58" />
+ <img width="400" src="https://github.com/user-attachments/assets/aa4c7347-d9a5-45ad-b1bf-bab0d6480a43" />
  <img width="1919" height="1199" src="https://github.com/user-attachments/assets/5d451199-3a9d-442a-b2d5-f907c845ca3b" />
 </div>
 
